@@ -1,5 +1,5 @@
-from .birthdaycog import Birthday
+from .BirthdayCog import Birthday
 
 
-def setup(bot):
-    bot.add_cog(Birthday())
+async def setup(bot):
+    bot.add_cog(Birthday(bot))

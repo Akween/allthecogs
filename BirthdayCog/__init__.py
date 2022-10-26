@@ -1,4 +1,4 @@
-from .birthdays import Birthday
+from .birthdaycog import Birthday
 
 
 async def setup(bot):
